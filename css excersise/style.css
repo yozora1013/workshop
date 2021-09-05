@@ -1,0 +1,42 @@
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;border-style:solid;border-width:7px;padding:20px;text-align:center;color: rgb(175, 235, 13);width: 30%;
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif }
+body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #f6f7bd;
+    padding-left:11em;}
+    
+    ul.navbar {
+        list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+        top: 2em;
+        left: 1em;
+        width: 9em }
+        ul.navbar a {
+            text-decoration: none }
+            ul.navbar li {
+                background: white;
+                margin: 0.5em 0;
+                /*ignore*/
+                padding: 0.3em;
+                border-left: 1em solid black }
+         a:link {
+                color: blue }
+         a:visited {
+                    color: purple }
+            ul.navbar li:hover{border-left-color: bisque;
+           }
+           address {
+            margin-top: 1em;
+            padding-top: 1em;
+            border-top: thin dotted }
+
+          .parent{position: relative;left: 10px;top: 200px;
+              border-style:solid;border-width: 10px;padding:10px;margin: 10px; background-color: crimson;}
+          .daughter{border: solid;border-width: 10px;padding:10px;margin: 2ch; background-color: aquamarine;} 
+          
+          #jasmine{ color: brown;}
